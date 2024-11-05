@@ -19,6 +19,25 @@ This Telegram bot allows employees to request breaks with a specific duration an
 
 ## Installation
 
+### Example `.env` File
+
+Create a file named `.env` in the root of your project directory and add the following content, replacing the placeholders with your actual values:
+
+```plaintext
+# The token for your Telegram bot from BotFather
+BOT_TOKEN=7569355956:AAEPJCAAcJ9STSgzWTiv0H2YYrZKenBHJ0w
+
+# The chat ID of the group where approvals will be sent
+# Ensure the ID starts with a "-" for groups (e.g., -1001234567890)
+GROUP_CHAT_ID=-1002260798378
+```
+
+- **BOT_TOKEN**: The token you receive from [BotFather](https://t.me/BotFather) after creating your bot.
+- **GROUP_CHAT_ID**: The chat ID for the approvers' group where break requests will be sent. This can be obtained by adding the bot to the group and using the `/getchatid` command.
+
+Make sure to keep your `.env` file secure and never share it publicly, as it contains sensitive information that grants control over your bot.
+
+
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-username/break-request-bot.git
