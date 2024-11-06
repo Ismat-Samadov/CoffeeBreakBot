@@ -1,7 +1,3 @@
-Your README looks comprehensive! Here’s a quick addition to ensure clarity and completeness, particularly around environment setup and future enhancements.
-
----
-
 # Break Request Bot
 
 This Telegram bot enables employees to request breaks with a specific duration and notifies a group of approvers for approval or denial. It supports department selection, customizable break duration, and real-time notifications for both employees and approvers.
